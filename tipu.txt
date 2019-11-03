@@ -1,0 +1,187 @@
+#!/bin/bash
+
+
+clear
+blue='\e[1;34m'
+green='\e[1;32m'
+purple='\e[1;35m'
+cyan='\e[1;36m'
+red='\e[1;31m'
+white='\e[1;37m'
+yellow='\e[1;33m'
+date | lolcat
+echo
+echo ----------------------------------- | lolcat
+echo OWNER CRYPTOCURRY OR ¤SQUEA¤MONITOR¤ |lolcat
+echo CONTAC ADMIN TELEGRAM @BTCGALAK | lolcat
+echo CONTAC ADMIN 2 @Zeze_arie | lolcat
+echo GROUB SPAM OR GROUB OFFICIAL | lolcat
+echo ------------------------------------ |lolcat
+echo
+echo 🔱🔱🔱🔱🔱🔱🔱🔱🔱🔱🔱🔱🔱🔱🔱🔱🔱🔱🔱🔱🔱 
+echo 🔱 🌈ORANG SUSAH🌈                         | lolcat
+echo 🔱 🔱NEGARA KONTOL🔱                       | lolcat
+echo 🔱 ➕ENGAK MALU JESICA ISKANDAR➕          | lolcat
+echo 🔱😱PEPEK NYA UDAH NEGRO OM😱              | lolcat
+echo 🔱 😄TAU LAH PEREMUAN SANGEK               | lolcat
+echo 🔱 💨KENTUT🌬SAMA💨MU💨      | lolcat
+echo 🔱 😆😆CANTIK CANTIK DI KENTOT NANGIS😆   | lolcat
+echo 🔱 GROUB TELEGRAM = @cryptocurryhyip01 | lolcat
+echo 🔱https://t.me/joinchat/I9ZcukpF8-DkHuEgYUkv5g | lolcat
+echo 🔱🔱🔱🔱🔱🔱🔱🔱🔱🔱🔱🔱🔱🔱🔱🔱🔱🔱🔱🔱🔱 | lolcat
+echo
+echo -e $red
+echo 🌹ARTIS LONTE🌹
+
+
+   penambahan(){
+
+   echo " Masukkan angka pertama : "
+
+   read p
+
+   echo " Masukkan angka kedua : "
+
+   read q
+
+   Tambah=$(echo "$p + $q" | bc)
+
+   echo "Hasil penambahan angka = $Tambah"
+   echo -e $blue
+
+   sleep 5
+
+   }
+
+
+
+   pengurangan(){
+
+   echo " Masukkan angka pertama : "
+
+   read p
+
+   echo " Masukkan angka kedua : "
+
+   read q
+
+   Kurang=$(echo "$p - $q" | bc)
+
+   echo "Hasil pengurangan angka = $Kurang"
+echo -e red
+   sleep 5
+
+   }
+
+
+
+   perkalian(){
+
+   echo " Masukkan angka pertama : "
+
+   read p
+
+   echo " Masukkan angka kedua : "
+
+   read q
+
+   Kali=$(echo "$p * $q" | bc)
+
+   echo "Hasil perkalian angka = $Kali"
+echo -e purple
+   sleep 5
+
+   }    
+
+   pembagian(){
+
+   echo " Masukkan angka pertama : "
+
+   read p
+
+   echo " Masukkan angka kedua : "
+
+   read q
+
+   Bagi=$(echo "$p /$q" | bc)
+
+   echo "Hasil pembagian angka = $Bagi"
+echo -e yellow
+   sleep 5
+
+   }
+
+
+
+   MENU=1
+
+
+
+   while [ $MENU ]
+
+   do
+
+   clear
+  echo "_________________________________"
+   echo "  KALKULATOR ANAK SEKOLAH     "
+   echo "  PINTAR PAKAL PANDAI "
+   echo "  MALES PAKAL BODOH "
+   echo "  CONTAC KALKULATOR +6285760141652 "
+   echo "  PILIH MENU SEMOGA SUKSES Bye Fauzi Nur "
+   echo -e $cyan
+ 
+   echo "------------------------------------------"
+echo -e $yellow
+   echo "1 . Penambahan"
+
+   echo "2 . Pengurangan"
+
+   echo "3 . Perkalian"
+   
+   echo "4 . Pembagian"
+
+   echo "5 . Exit"
+   echo -e  yellow
+
+   echo "Pilihan Menu : "
+
+   read MENU
+
+   case $MENU in
+
+
+   1) penambahan
+echo -e $cyan
+
+   ;;
+
+   2) pengurangan
+echo -e $white
+
+   ;;
+
+   3) perkalian
+echo -e $yellow
+
+   ;;
+
+   4) pembagian
+echo -e $blue
+
+   ;;
+
+   5) echo "Terima Kasih :)"
+echo -e $red
+
+   exit
+
+   ;;
+
+   *) echo "Kamu Salah Memasukkan Pilihan"
+   echo -e $green
+
+   sleep 3
+
+   esac
+
+   done
